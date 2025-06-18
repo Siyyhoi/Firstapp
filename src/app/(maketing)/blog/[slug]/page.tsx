@@ -1,10 +1,8 @@
-interface BlogPostPageProps {
-  params: {
-    slug: string;
-  };
-}
-
-export default async function BlogPost({ params }: BlogPostPageProps) {
+export default async function BlogPost({
+  params,
+}: {
+  params: { slug: string };
+}) {
   const { slug } = params;
 
   return (
