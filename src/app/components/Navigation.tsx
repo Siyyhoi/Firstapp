@@ -44,7 +44,7 @@ export default function Navigation() {
         <li>
           <Link
             href="/"
-            className="text-blue-600 hover:text-blue-800 transition-colors duration-300 underline underline-offset-4"
+            className="hover:text-blue-800 transition-colors duration-300"
           >
             หน้าแรก
           </Link>
